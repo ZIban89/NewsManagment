@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE tiles-definitions PUBLIC  
+      "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+      "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+	<!-- Base Define -->
+	<definition name="base.definition" template="/WEB-INF/layouts/newsLayout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/layouts/_header.jsp" />
+		<put-attribute name="menu" value="/WEB-INF/layouts/_menu.jsp" />
+		<put-attribute name="point" value="point" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/layouts/_footer.jsp" />
+	</definition>
+
+
+	<definition name="point" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/layouts/_point.jsp.jsp" />
+	</definition>
+
+	<definition name="newsList" extends="base.definition">
+		<put-attribute name="title" value="News List" />
+		<put-attribute name="body" value="/WEB-INF/layouts/_newsList.jsp" />
+	</definition>
+
+	<definition name="viewNews" extends="base.definition">
+		<put-attribute name="title" value="News View" />
+		<put-attribute name="body" value="/WEB-INF/layouts/_viewNews.jsp" />
+	</definition>
+
+	<definition name="editNews" extends="base.definition">
+		<put-attribute name="title" value="Edit News" />
+		<put-attribute name="body" value="/WEB-INF/layouts/_editNews.jsp" />
+	</definition>
+
+	<definition name="addNews" extends="base.definition">
+		<put-attribute name="title" value="Add News" />
+		<put-attribute name="body" value="/WEB-INF/layouts/_editNews.jsp" />
+	</definition>
+
+
+</tiles-definitions>

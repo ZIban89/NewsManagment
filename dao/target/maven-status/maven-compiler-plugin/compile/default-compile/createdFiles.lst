@@ -1,0 +1,4 @@
+by\htp\nikonov\task03\entity\News.class
+by\htp\nikonov\task03\dao\NewsDAO.class
+by\htp\nikonov\task03\entity\Content.class
+by\htp\nikonov\task03\utils\HibernateUtil.class

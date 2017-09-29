@@ -1,0 +1,65 @@
+#newsList {
+	
+	width: 100%;
+	
+	
+}
+
+#delBtn {
+	position: fixed;
+	bottom: 40px;
+	right: 50px;
+}
+
+.news{
+
+	box-sizing: border-box;
+	padding:20px;
+	
+}
+
+.news:nth-child(2n){
+	background-color: #cef3ff;
+}
+
+.news:nth-child(2n+1){
+	background-color: #ffffb3;
+}
+
+.newsTitle{
+	font-weight: bold;
+	width: 80%;
+
+}
+.newsDate{
+	float: right;	
+	text-decoration: underline;
+}
+
+.newsBrief{
+	margin-top:5px;
+	width: 60%;
+}
+
+.newsActions{
+	text-align: right;
+	
+	
+}
+
+.newsActions *{
+	display: inline-block;	
+
+	text-decoration: none;
+	color:black;	
+}
+
+.newsActions div>input{
+	vertical-align: bottom;
+}
+
+.newsActions div>a{
+
+	border-bottom:1px solid black;
+}
+

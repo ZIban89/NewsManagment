@@ -1,0 +1,38 @@
+.banner{
+	
+	width:20%;
+	min-width: 130px;
+	display:inline-block;
+	clear:right;
+	padding-left:15px;
+	top:0;
+	vertical-align: top;
+	
+}
+
+.newsViewContent{
+	width:60%;
+	display:inline-block;
+	white-space: pre-line;
+	overflow: auto;
+}
+
+#newsViewButtons{
+	
+	text-align: right;
+	margin-top:20px;
+	padding-right:40px;	
+	
+}
+
+#newsViewButtons a{
+text-decoration: none;
+}
+
+.qwe{
+	margin-top:10px;
+	white-space: nowrap;
+	box-sizing: :border-box;
+	width:100%;
+	
+}
