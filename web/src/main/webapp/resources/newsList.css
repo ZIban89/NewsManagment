@@ -1,8 +1,5 @@
 #newsList {
-	
-	width: 100%;
-	
-	
+	width: 100%;	
 }
 
 #delBtn {
@@ -12,10 +9,8 @@
 }
 
 .news{
-
 	box-sizing: border-box;
-	padding:20px;
-	
+	padding:20px;	
 }
 
 .news:nth-child(2n){

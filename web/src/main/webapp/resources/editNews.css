@@ -1,6 +1,5 @@
 .newsEditFields{
-	width:100%;
-	
+	width:100%;	
 }
 
 .newsEditBrief{
@@ -10,13 +9,9 @@
 
 .newsEditContent{
 	height: 150px;
-	overflow: scroll;
-	
+	overflow: scroll;	
 }
 
-.error {
-	
-	color: red;
-	
-	
+.error {	
+	color: red;	
 }

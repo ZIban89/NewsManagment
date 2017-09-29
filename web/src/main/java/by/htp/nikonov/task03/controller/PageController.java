@@ -1,8 +1,6 @@
-package by.htp.nikonov.task03;
+package by.htp.nikonov.task03.controller;
 
 import java.text.ParseException;
-import java.util.Date;
-
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import by.htp.nikonov.task03.entity.News;
+import by.htp.nikonov.task03.entity.NewsForm;
 import by.htp.nikonov.task03.service.NewsService;
 
 @Controller
@@ -41,6 +40,8 @@ public class PageController {
 
 	@RequestMapping("/edit/{id}")
 	public String editNews(@PathVariable Integer id, Model model) {
+		
+			
 		NewsForm newsForm;
 		if (id < 0) {			
 			newsForm = new NewsForm();

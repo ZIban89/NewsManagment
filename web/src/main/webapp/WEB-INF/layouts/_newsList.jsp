@@ -23,7 +23,6 @@
 					<div class="newsBrief">${news.brief}</div>
 					<div class="newsActions">
 						<div id="viewNews">
-
 							<a href="${viewLink}"><spring:message
 									code="messages.newsList.view" /></a>
 						</div>
@@ -37,8 +36,8 @@
 					</div>
 				</div>
 			</c:forEach>
-			
 		</div>
+		
 		<div id="delBtn">
 			<input type="submit" id="delNewsBtn"
 				value="<spring:message code="messages.newsList.delete"/>"

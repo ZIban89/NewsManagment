@@ -1,4 +1,4 @@
-package by.htp.nikonov.task03;
+package by.htp.nikonov.task03.entity;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
